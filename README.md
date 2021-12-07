@@ -13,7 +13,7 @@ Em Javascript, fiz uma função para chamar atenção caso o usuário não preen
 E também uma função para validar cada checkbox.
 
 
-:arrow_forward: link para a página: 
+:arrow_forward: link para a página: https://projeto-html-css-javascript-02.netlify.app
 
 :wink: Então isso é pessoal.
 
