@@ -1,0 +1,99 @@
+body {
+  background-color: #a9d8d2;
+  margin: 0px;
+}
+h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+.fontsProperty {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+}
+.centralizerBox {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  height: 720px;
+  width: 850px;
+  border-radius: 5px;
+  display: flex;
+}
+.marginBox {
+  padding: 20px;
+}
+.textTop {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.division {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.aDireita {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+  padding-right: 10px;
+}
+.aoMeio {
+  display: flex;
+  align-items: center;
+}
+input[type="text"],
+input[type="number"] {
+  width: 320px;
+  height: 25px;
+  border-radius: 3px;
+  border-width: 1px;
+  font-family: inherit;
+  margin: 10px 1px 10px 1px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 1;
+  height: 30px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 8px 6px 8px 1px;
+}
+button {
+  height: 30px;
+  width: 60px;
+  margin: 20px 1px 20px 4px;
+  font-size: 15px;
+}
+.dropdown {
+  position: relative;
+}
+select {
+  width: 130px;
+  height: 32px;
+  font-family: inherit;
+  padding: 2px;
+  border-radius: 3px;
+  background-color: rgb(240, 240, 240);
+  margin: 20px 1px 20px 1px;
+  color: black;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select-icon {
+  position: absolute;
+  top: 22px;
+  right: 282px;
+  width: 10px;
+  height: 10px;
+}
+
+select:hover ~ .select-icon svg.icon,
+select:focus ~ .select-icon svg.icon {
+  fill: #a9d8d2;
+}
+
+.redFocus {
+  color: red;
+}

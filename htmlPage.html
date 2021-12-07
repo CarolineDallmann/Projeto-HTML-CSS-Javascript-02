@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body class="fontsProperty">
+    <h1>Survey Form</h1>
+    <form onsubmit="return onSub(this)" method="get">
+        <div class="centralizerBox">
+            <div class="marginBox">
+                <div class="textTop">Let us know how we can improve freeCodeCamp</div>
+                <div class="division">
+                    <div class="aDireita aoMeio" id="divName"><label for="name">* Name:</label></div>
+                    <div><input type="text" name="name" id="name" placeholder="Enter you name"></div>
+                    <div class="aDireita aoMeio" id="divEmail"><label for="email">* Email:</label></div>
+                    <div><input type="text" name="email" id="email" placeholder="Enter your email"></div>
+                    <div class="aDireita aoMeio" id="divAge"><label for="age">* Age:</label></div>
+                    <div><input type="number" name="age" id="age" placeholder="Age" min="8"></div>
+                    <div class="aDireita aoMeio"><label for="role">* Which option best describes your current
+                            role?</label></div>
+                    <div class="dropdown">
+                        <select name="role" id="role">
+                            <option value="student">Student</option>
+                            <option value="teacher">Teacher</option>
+                            <option value="developer">Developer</option>
+                        </select>
+                        <div class="select-icon">
+                            <svg focusable="false" class="icon" width="11" height="21" viewBox="0 0 320 512">
+                                <path
+                                    d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="aDireita" id="divRecommend"><label for="recommend">* How likely is that you would
+                            recommend freCodeCamp to
+                            a friend?</label>
+                    </div>
+                    <div>
+                        <div><input type="radio" name="recommend" id="definitely" value="definitely">
+                            <label for="definitely">Definitely</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="recommend" id="maybe" value="maybe">
+                            <label for="maybe">Maybe</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="recommend" id="notsure" value="notsure">
+                            <label for="notsure">Not sure</label>
+                        </div>
+                    </div>
+                    <div class="aDireita aoMeio" id="divLike"><label for="like">* What do you like most in FCC:</label>
+                    </div>
+                    <div class="dropdown">
+                        <select name="like" id="like">
+                            <option value="">Select an option</option>
+                            <option value="didatic">Didatic</option>
+                            <option value="videoLessons">Video lessons</option>
+                            <option value="teachers">Teachers</option>
+                        </select>
+                        <div class="select-icon">
+                            <svg focusable="false" class="icon" width="11" height="21" viewBox="0 0 320 512">
+                                <path
+                                    d="M41 288h238c21.4 0 32.1 25.9 17 41L177 448c-9.4 9.4-24.6 9.4-33.9 0L24 329c-15.1-15.1-4.4-41 17-41z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="aDireita" id="divFuture"><label for="future">* Things that should be improved in the
+                            future (Check all
+                            that
+                            apply):</label>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="checkbox" name="future" id="front" value="front">
+                            <label for="front">Front-End Projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="future" id="back" value="back">
+                            <label for="back">Back-End Projects</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="future" id="data" value="data">
+                            <label for="data">Data Visualization</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="future" id="security" value="security">
+                            <label for="security">Security</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="future" id="nothing" value="nothing">
+                            <label for="nothing">Nothing</label>
+                        </div>
+                    </div>
+                    <div></div>
+                    <div> <button type="submit">Send</button></div>
+                </div>
+            </div>
+    </form>
+</body>
+
+</html>
