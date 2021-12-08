@@ -12,6 +12,13 @@ mas por hora optei fazer apenas com HTML e CSS mesmo. Usei como base esse tutori
 Em Javascript, fiz uma função para chamar atenção caso o usuário não preencha algum campo do formulário. 
 E também uma função para validar cada checkbox.
 
+Minha imagem de inpiração:
+
+![insp](https://user-images.githubusercontent.com/88031968/145202306-087f7fb2-eff2-416f-8618-b0e1f7b0343a.jpg)
+
+O resultado que consegui:
+
+![result](https://user-images.githubusercontent.com/88031968/145202385-4d37b4c1-6bee-454e-9096-2715962589bb.jpg)
 
 :arrow_forward: link para a página: https://projeto-html-css-javascript-02.netlify.app
 
